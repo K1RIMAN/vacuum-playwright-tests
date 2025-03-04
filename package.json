@@ -1,15 +1,23 @@
 {
-  "name": "pythonproject",
+  "name": "vacuum-playwright-tests",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K1RIMAN/vacuum-playwright-tests.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@playwright/test": "^1.50.1"
+  "bugs": {
+    "url": "https://github.com/K1RIMAN/vacuum-playwright-tests/issues"
   },
-  "description": ""
+  "homepage": "https://github.com/K1RIMAN/vacuum-playwright-tests#readme",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.50.1"
+  }
 }
